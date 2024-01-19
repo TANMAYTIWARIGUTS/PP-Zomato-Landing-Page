@@ -9,7 +9,7 @@ Step1: 18
 Step2: 19
 - extensions: css peek, auto rename tag, auto close tag, prettier, path intellisense, better comments, live server
 - head tag contains:
-    - Zomato web page logo link tag
+    - Zomato logo tab icon tag
     - fontawesome link tag
     - google font link tag
     Default tags:
