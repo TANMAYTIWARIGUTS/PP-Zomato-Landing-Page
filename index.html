@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Zomato logo in the tab -->
-    <link
-    rel="icon"
-    type="image/x-icon"
-    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png"
-  />
+    <link rel="icon" type="image/x-icon" href="./images/zomato.ico" />
 
     <!-- font awesome icons -->
     <link
@@ -25,12 +21,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
       rel="stylesheet"
     />
 
     <title>Zomato Landing Page</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="hero__section">
+      <header>
+        <nav class="navbar">
+          <a href="#">Get the App</a>
+          <div class="navbar__menu_container">
+            <a href="#" class="link">Investor Relations</a>
+            <a href="#" class="link">Add restaurant</a>
+            <a href="#" class="link">Login</a>
+            <a href="#" class="link">Sign Up</a>
+            <a href="#" class="user_icon"><i class="fa-solid fa-user"></i></a>
+          </div>
+        </nav>
+      </header>
+      <div class="hero__section_container">
+        <img
+          src="./images/heroSectionLogo.png"
+          alt="zomato logo"
+          class="hero__section_logo"
+        />
+        <h1 class="hero__section_title">
+          Find the best restaurants, cafés and bars in India
+        </h1>
+        <div class="hero__section_input_container">
+          <i class="fa-solid fa-location-dot" style="color: #cb202d; margin-left: 10px"></i
+          ><input
+            class="input_container_location"
+            type="text"
+            placeholder="Delhi"
+          />
+          <i class="fa-solid fa-magnifying-glass" style="color: #9e9e9e"></i
+          ><input
+            class="input_container_search"
+            type="text"
+            placeholder="Search for a restaurant, cuisine or a dish"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container we__offer">
+      <div class="we__offer_card">
+        <img src="./images/item1.png" alt="card 1">
+        <div class="we__offer_content">
+          <h2>Order Online</h2>
+          <p>Stay home and order to your doorstep</p>
+        </div>
+      </div>
+      <div class="we__offer_card">
+        <img src="./images/item2.png" alt="card 2">
+        <div class="we__offer_content">
+          <h2>Dining</h2>
+          <p>View the citys favourite dining venue</p>
+        </div>
+      </div>
+      <div class="we__offer_card">
+        <img src="./images/item3.png" alt="card 3">
+        <div class="we__offer_content">
+          <h2>Nightlife and clubs</h2>
+          <p>Explore the citys top nightlife outlets</p>
+        </div>
+      </div>
+      <div class="we__offer_card">
+        <img src="./images/item4.png" alt="card 4">
+        <div class="we__offer_content">
+          <h2>Order Online</h2>
+          <p>Stay home and order to your doorstep</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
